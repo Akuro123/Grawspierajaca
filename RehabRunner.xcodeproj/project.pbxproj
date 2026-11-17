@@ -1,0 +1,999 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03443A7F956D615D4FAFBF61 /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 68C096E9E3D7330700063555 /* jump.wav */; };
+		09D5F1E4266165CED6DA23C1 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867ECEFB778892CABDE34E19 /* Theme.swift */; };
+		0D818F5B096333DD425DBE1F /* WatchLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6124544B0CADD10C14160E89 /* WatchLink.swift */; };
+		0E24F0835EAE2D9E0E678ACB /* colormap_city.png in Resources */ = {isa = PBXBuildFile; fileRef = CDBAFA28A4D15F7ACD98A1CE /* colormap_city.png */; };
+		10DDA34D939387F60E644B14 /* LegRepDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835E23F0649B6E305D741C3D /* LegRepDetector.swift */; };
+		117A5C8A75A4B9AB99B124FF /* sky_city.png in Resources */ = {isa = PBXBuildFile; fileRef = AAE93D73CA1E8369AF3075ED /* sky_city.png */; };
+		12FE5FA93C332AA65E8ECB48 /* RehabRunnerWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217EBF96F2F0E57E9C2AE0EC /* RehabRunnerWatchApp.swift */; };
+		13692A7DD7125E20C8447B94 /* city_grass-trees.glb in Resources */ = {isa = PBXBuildFile; fileRef = F97C663EDB82607E6BF6183D /* city_grass-trees.glb */; };
+		157A110914F32DEE0B041F30 /* plat_coin.glb in Resources */ = {isa = PBXBuildFile; fileRef = 94AE610DB46F6926129751BB /* plat_coin.glb */; };
+		195E80BC2A324B63B02CF729 /* PhoneConnectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CBBCC29BCDF41557325695 /* PhoneConnectivity.swift */; };
+		19D41D84E70312571937D283 /* OrientationGestureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA009A19C9F1D20EA952856 /* OrientationGestureTests.swift */; };
+		1B27E77F2D69FC26C0DEDBFD /* WatchEventBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABF0C910AD7EDAA81F36B58 /* WatchEventBuilder.swift */; };
+		1B3C6C3655475EBF58B081C4 /* plat_cloud.glb in Resources */ = {isa = PBXBuildFile; fileRef = 4EB5045E379F45AC263F709F /* plat_cloud.glb */; };
+		1B63BD3C3F09546ABD8D479F /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 630A4BCF8ED29DBB929BD7B3 /* cloud.png */; };
+		1BF92DEFD178D8126243B71A /* colormap_race.png in Resources */ = {isa = PBXBuildFile; fileRef = 6516FD99001D4B1724715910 /* colormap_race.png */; };
+		1E7282DE5AC0DABACBBA3D0F /* Game3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8D29A3267B2D2E76A0ECF /* Game3DView.swift */; };
+		22C451037016E59A5C1EC4DF /* city_building-small-b.glb in Resources */ = {isa = PBXBuildFile; fileRef = 343FFA743FE498617A59F5D1 /* city_building-small-b.glb */; };
+		271ACD130ADDDCACFB961465 /* RehabRunnerWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C76C2A3D98A333178D45AB37 /* RehabRunnerWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2AAEF9831A3A0E7B227A01A5 /* GestureDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F88103F5704F474197AB6DB /* GestureDetector.swift */; };
+		2C619D9E7D6CC1949BBEEBAA /* TestSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344DB767F6A891C47676AB99 /* TestSupport.swift */; };
+		2FA75E0BEAB12199BF0E6C3C /* ModelLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B93FF3054CD36909846A73 /* ModelLibrary.swift */; };
+		32366B5FAAFB382ECB41CBEF /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D27B5BF177D61AC0C4BAA1 /* SessionController.swift */; };
+		399B285DA8B0AA99EE9E776A /* race_vehicle-truck-red.glb in Resources */ = {isa = PBXBuildFile; fileRef = 3469D26174FE3EC4DAC61398 /* race_vehicle-truck-red.glb */; };
+		3AFC29EB6762970BD2753240 /* plat_flag.glb in Resources */ = {isa = PBXBuildFile; fileRef = 0140546873A7BD151AB0AC98 /* plat_flag.glb */; };
+		3DA9316A0F85585015396C13 /* rep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3D273F16DA1D7B55E684131B /* rep.wav */; };
+		431A3300875DCAE0FF9FF43F /* WatchEventBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABF0C910AD7EDAA81F36B58 /* WatchEventBuilder.swift */; };
+		4345F025D6BA3519D646046D /* city_building-small-d.glb in Resources */ = {isa = PBXBuildFile; fileRef = 6CF92541BE65F72ADB9DF73D /* city_building-small-d.glb */; };
+		435007A8F307972915117969 /* race_decoration-forest.glb in Resources */ = {isa = PBXBuildFile; fileRef = 37FCA8356D585097962A1C83 /* race_decoration-forest.glb */; };
+		44305ED4918AD2E1876A6317 /* dust.png in Resources */ = {isa = PBXBuildFile; fileRef = 92B3FF79CCA45C8B396201CB /* dust.png */; };
+		4743CAA28BB900C321631AFC /* KenneyNL-Racing-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 51B52B31C2B67D89FB79131A /* KenneyNL-Racing-LICENSE.txt */; };
+		47767B7F50ED01E7278CAECB /* KenneyNL-City-Builder-LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 4F654B34FDD9BC2A26E825CC /* KenneyNL-City-Builder-LICENSE.md */; };
+		4D3C546DC323F1197867E6DE /* ExerciseSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDDEB1464E2F7442DC7D5F7 /* ExerciseSession.swift */; };
+		527EDBDB1D04AD90DFF8CF5F /* tap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C9ABD967FA646FC5588E105 /* tap.wav */; };
+		564FE044ED8CFD96F2C1EA32 /* race_track-bump.glb in Resources */ = {isa = PBXBuildFile; fileRef = 5C2CDD126EAA61C1CC653037 /* race_track-bump.glb */; };
+		5799DB8EB57B1553E5CB1DF4 /* sky_sunset.png in Resources */ = {isa = PBXBuildFile; fileRef = BB7476F51A55D526700C1176 /* sky_sunset.png */; };
+		59167E98E6348E10830D184E /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E342AE19D360249935D4C4C /* spark.png */; };
+		59366BA093AFA0B42D7C88EC /* Rehab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE705901B15C415EC3D85335 /* Rehab.swift */; };
+		5970D21671F8B557EF1D9174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41ABAA55D47BF6A108936CB4 /* Assets.xcassets */; };
+		5BAD1D3172AC5CBADB3D4F35 /* slide.wav in Resources */ = {isa = PBXBuildFile; fileRef = 287338CB2BFC2EDF8C54EEA2 /* slide.wav */; };
+		5FE37734C8FD8DC739CBAAAC /* levelup.wav in Resources */ = {isa = PBXBuildFile; fileRef = AE407DB88713ED9262226F43 /* levelup.wav */; };
+		659063609C7C0B0D1626B612 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689C828978BE30629682169F /* Models.swift */; };
+		68BC4E51C721CC91EEA110FC /* GLTFLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962754754AD7CD764244D7D3 /* GLTFLoader.swift */; };
+		6CAA65D1BF7957F44BD83897 /* shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = CFFF2E2E07894FE069D4FF7E /* shadow.png */; };
+		76C4A686DC7CEA28E50C3A32 /* RunnerEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98052129C7ECD6994673831 /* RunnerEngine.swift */; };
+		776E4DA92836E21C59A21B23 /* RehabLogicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A660C4AB2A193E4B41275E /* RehabLogicTests.swift */; };
+		793314810A5E853E4CBAA99D /* CalibrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A45EC07D8FBD4F67554C8AF /* CalibrationView.swift */; };
+		7B7858CFC0F5B7B73E745DE1 /* race_vehicle-motorcycle.glb in Resources */ = {isa = PBXBuildFile; fileRef = E5EF57A26EA0D09D5C379473 /* race_vehicle-motorcycle.glb */; };
+		7C2F314258C096CEA354C3B3 /* reward.wav in Resources */ = {isa = PBXBuildFile; fileRef = 725748BD4B9068AD2701EBF7 /* reward.wav */; };
+		7C8477A62434F5EB3B5FDA11 /* sky_night.png in Resources */ = {isa = PBXBuildFile; fileRef = C6EA3D7D2A72BB5D88408EC3 /* sky_night.png */; };
+		85D86B783BB5932E70B286F7 /* city_pavement.glb in Resources */ = {isa = PBXBuildFile; fileRef = 36A4CB031DF73C560FDE68F0 /* city_pavement.glb */; };
+		86CA80AB6F756BF10BCDD1F1 /* race_vehicle-truck-purple.glb in Resources */ = {isa = PBXBuildFile; fileRef = 0C046B834D4E8856FA1F051F /* race_vehicle-truck-purple.glb */; };
+		883A6AF7704592E56C68302B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F67BCA4730BFB223D2C5BD /* HomeView.swift */; };
+		8D76C42F3961EDEDA4877E66 /* plat_character.glb in Resources */ = {isa = PBXBuildFile; fileRef = FA4169B89F431B432C6B0569 /* plat_character.glb */; };
+		8F60CDF38120E82711126941 /* hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 744B25BFB3DB91F3509FD2C8 /* hit.wav */; };
+		94134F22C6CFD0D8A296EE45 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E477AF2D408C749B5162D865 /* SummaryView.swift */; };
+		94E7E70A198D0536A8174225 /* plat_brick.glb in Resources */ = {isa = PBXBuildFile; fileRef = C539EC937FA542B355FF55A6 /* plat_brick.glb */; };
+		9680C293CB8177AA387611DE /* GestureDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B86A73A31DE060CF1B89D8 /* GestureDetectorTests.swift */; };
+		98685E5E298D7A22E36B513C /* RobotExpressive.glb in Resources */ = {isa = PBXBuildFile; fileRef = 56F43EFA8010133C874BB959 /* RobotExpressive.glb */; };
+		9A71F020F783638CAAB205CF /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D149DDEB2F52C130B52D75F2 /* GameView.swift */; };
+		9BB9500E5C27EA95B8B59E0C /* MotionSettingsEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E174C8048967584455C96D /* MotionSettingsEditor.swift */; };
+		9F6100C5CDA0A7262B237AFB /* LICENSES.md in Resources */ = {isa = PBXBuildFile; fileRef = 570240304A34D8F15E2AAAEE /* LICENSES.md */; };
+		A094A817FFE9174517607582 /* city_building-small-a.glb in Resources */ = {isa = PBXBuildFile; fileRef = 5FE73FF9DCA32CE125413B1B /* city_building-small-a.glb */; };
+		A2A3CAC207AB110992B00F59 /* WatchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A39AFC00023D6E3EA491F8B /* WatchModel.swift */; };
+		A2CA3001EAD8134D5592B336 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEE2DBC7C57E3588919AB58 /* SettingsView.swift */; };
+		A4CC112F407F17C05E398D75 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208F0D91EF1A3C80B0EA56CE /* StatsView.swift */; };
+		A6FB735DEBF6DE22BFD5D655 /* race_vehicle-truck-yellow.glb in Resources */ = {isa = PBXBuildFile; fileRef = F9B0244EB3349259CB1E6CA0 /* race_vehicle-truck-yellow.glb */; };
+		A7F5CED6163C0CE8FE46BFD4 /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E924C023271F8C286D9403A /* RemindersView.swift */; };
+		A89168F8B38BEDB245971348 /* ExerciseSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F65D3A4B12440B96C187A0A /* ExerciseSessionTests.swift */; };
+		AA602462A360750CDBDE6D32 /* coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0DD5A50926B03BEBFD4DC11E /* coin.wav */; };
+		AB97CC5295218F0581A9F742 /* RunnerScene3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343904E91FB6BF0D3573C5D5 /* RunnerScene3D.swift */; };
+		AFE6A66AD6C7EB3C6A61A186 /* DiagnosticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BFAF38C83A69B0A7CF8CA0 /* DiagnosticsView.swift */; };
+		B1E75373EBB54453C1453B70 /* lane.wav in Resources */ = {isa = PBXBuildFile; fileRef = 72C583EA2786638942A3256D /* lane.wav */; };
+		B393D48F20B3730EEEC01159 /* city_building-small-c.glb in Resources */ = {isa = PBXBuildFile; fileRef = 892BB5A9A72FC74A389F0E38 /* city_building-small-c.glb */; };
+		B43A603302735049B2770D96 /* Sfx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874EA0D7F50E70818F00B0C6 /* Sfx.swift */; };
+		B9B7E534E8275E513A0848D1 /* ExerciseSessionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = E988BDE3422A6EAC37B225AE /* ExerciseSessionRecord.swift */; };
+		BBA6EA30890E20936B6D319D /* obs_gantry.png in Resources */ = {isa = PBXBuildFile; fileRef = 48B8B176196CCD96C3601B2C /* obs_gantry.png */; };
+		BF02B5D4731F8D9A98B74608 /* plat_grass-small.glb in Resources */ = {isa = PBXBuildFile; fileRef = 84A7AE66D3FB8A584A632E5B /* plat_grass-small.glb */; };
+		C2AE362FA6276F1FE5F5BFB9 /* MotionSettingsEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E174C8048967584455C96D /* MotionSettingsEditor.swift */; };
+		C2E55EE7C8B1CB108373A90E /* plat_dust.glb in Resources */ = {isa = PBXBuildFile; fileRef = DFE80B8C0D6D4464A5CF41C5 /* plat_dust.glb */; };
+		C30D41796FD34E104F06E271 /* city_road-straight-lightposts.glb in Resources */ = {isa = PBXBuildFile; fileRef = 67F08D3F71B424169B10DD59 /* city_road-straight-lightposts.glb */; };
+		C9718B3BDF07716221D239CA /* MotionSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D2035FDEFFD2741F4C6AF5 /* MotionSettings.swift */; };
+		CA4610371287F19CF6D3BBE6 /* city_grass-trees-tall.glb in Resources */ = {isa = PBXBuildFile; fileRef = 593EFDBDAE159EC3CF423F96 /* city_grass-trees-tall.glb */; };
+		CC4DBCC2C6F8D701CF771B4D /* race_vehicle-truck-green.glb in Resources */ = {isa = PBXBuildFile; fileRef = 99A5F6BB54961BB5BD372F91 /* race_vehicle-truck-green.glb */; };
+		D2A51B7AC855ADE8ED25874B /* LegRepDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835E23F0649B6E305D741C3D /* LegRepDetector.swift */; };
+		D2F080C8B524C677364F29E7 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689C828978BE30629682169F /* Models.swift */; };
+		D61E34BBB3903BF877AD77E7 /* plat_platform-large.glb in Resources */ = {isa = PBXBuildFile; fileRef = 753C2FA52461C3CF234B097F /* plat_platform-large.glb */; };
+		DC93CF06B24031143893D4B6 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB38B41466F2246D9F4A748A /* ProfileView.swift */; };
+		DD3B5B2BCADC467141A1D307 /* MotionMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C260BD4A2D0CCD0BBA82447 /* MotionMath.swift */; };
+		E32C94ACC9484B9DF900AA9B /* RehabRunnerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EA2B1D145223E4E4F70479 /* RehabRunnerApp.swift */; };
+		E7FB37C39D238B2B61CA6311 /* city_road-straight.glb in Resources */ = {isa = PBXBuildFile; fileRef = DAE0EB0C003C49D31DF3E299 /* city_road-straight.glb */; };
+		E9701B2C47F6FC65CBADF4F2 /* GestureDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F88103F5704F474197AB6DB /* GestureDetector.swift */; };
+		EE74C5B641CAE80D51997477 /* sky_park.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ABFEA36B6334F1E1741D954 /* sky_park.png */; };
+		F117A2AC9AC8B17548937643 /* KenneyNL-Platformer-LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 70FE7EADB8AEE3220BAB8779 /* KenneyNL-Platformer-LICENSE.md */; };
+		F4285A11B7583D49DD33EA61 /* city_building-garage.glb in Resources */ = {isa = PBXBuildFile; fileRef = BCA5223628741343D2676870 /* city_building-garage.glb */; };
+		F4415CE6B8626FD44DA99C37 /* MotionSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D2035FDEFFD2741F4C6AF5 /* MotionSettings.swift */; };
+		F52B3C1E7CFA9574F12E39AF /* Zone.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE986237CF006497DF334F9E /* Zone.swift */; };
+		F8F7FDC9DAC8CFAAB7479B06 /* city_road-corner.glb in Resources */ = {isa = PBXBuildFile; fileRef = F31CACA3FA229789A5E1AD7F /* city_road-corner.glb */; };
+		F8FAA0EE454B4E7401C571A6 /* pause.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5311414E5A9813C24DBCA393 /* pause.wav */; };
+		FCE2123D52BFC5DAAC4B6C96 /* ReminderStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86ACB6824E58265B89C8B93 /* ReminderStore.swift */; };
+		FCE5E22EC5C046AD3D83AF8C /* city_grass.glb in Resources */ = {isa = PBXBuildFile; fileRef = 76005C5A51718AF370990F0D /* city_grass.glb */; };
+		FD7AD6A391ABCE4BAB79A2F3 /* MotionMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C260BD4A2D0CCD0BBA82447 /* MotionMath.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B6F4CDEE3D1B96E396B3ABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4757969A9D97AFC3CD68C0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3E859AEBD9F3AFF989CC054;
+			remoteInfo = RehabRunnerWatch;
+		};
+		9EAA253F53146926651D1BF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4757969A9D97AFC3CD68C0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EAD5A96D22B4B4A34698E73;
+			remoteInfo = RehabRunner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0EAC801C060211E3F293E47F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				271ACD130ADDDCACFB961465 /* RehabRunnerWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0140546873A7BD151AB0AC98 /* plat_flag.glb */ = {isa = PBXFileReference; path = plat_flag.glb; sourceTree = "<group>"; };
+		0C046B834D4E8856FA1F051F /* race_vehicle-truck-purple.glb */ = {isa = PBXFileReference; path = "race_vehicle-truck-purple.glb"; sourceTree = "<group>"; };
+		0DD5A50926B03BEBFD4DC11E /* coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = coin.wav; sourceTree = "<group>"; };
+		0E924C023271F8C286D9403A /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
+		1A39AFC00023D6E3EA491F8B /* WatchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchModel.swift; sourceTree = "<group>"; };
+		208F0D91EF1A3C80B0EA56CE /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		217EBF96F2F0E57E9C2AE0EC /* RehabRunnerWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehabRunnerWatchApp.swift; sourceTree = "<group>"; };
+		287338CB2BFC2EDF8C54EEA2 /* slide.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = slide.wav; sourceTree = "<group>"; };
+		2F8227DFD499D638BCDBBEA0 /* RehabRunner.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = RehabRunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		343904E91FB6BF0D3573C5D5 /* RunnerScene3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunnerScene3D.swift; sourceTree = "<group>"; };
+		343FFA743FE498617A59F5D1 /* city_building-small-b.glb */ = {isa = PBXFileReference; path = "city_building-small-b.glb"; sourceTree = "<group>"; };
+		344DB767F6A891C47676AB99 /* TestSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSupport.swift; sourceTree = "<group>"; };
+		3469D26174FE3EC4DAC61398 /* race_vehicle-truck-red.glb */ = {isa = PBXFileReference; path = "race_vehicle-truck-red.glb"; sourceTree = "<group>"; };
+		36A4CB031DF73C560FDE68F0 /* city_pavement.glb */ = {isa = PBXFileReference; path = city_pavement.glb; sourceTree = "<group>"; };
+		37FCA8356D585097962A1C83 /* race_decoration-forest.glb */ = {isa = PBXFileReference; path = "race_decoration-forest.glb"; sourceTree = "<group>"; };
+		39CBBCC29BCDF41557325695 /* PhoneConnectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneConnectivity.swift; sourceTree = "<group>"; };
+		3ABFEA36B6334F1E1741D954 /* sky_park.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sky_park.png; sourceTree = "<group>"; };
+		3D273F16DA1D7B55E684131B /* rep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rep.wav; sourceTree = "<group>"; };
+		3E342AE19D360249935D4C4C /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		41ABAA55D47BF6A108936CB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48B8B176196CCD96C3601B2C /* obs_gantry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = obs_gantry.png; sourceTree = "<group>"; };
+		49BFAF38C83A69B0A7CF8CA0 /* DiagnosticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticsView.swift; sourceTree = "<group>"; };
+		4EB5045E379F45AC263F709F /* plat_cloud.glb */ = {isa = PBXFileReference; path = plat_cloud.glb; sourceTree = "<group>"; };
+		4F654B34FDD9BC2A26E825CC /* KenneyNL-City-Builder-LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "KenneyNL-City-Builder-LICENSE.md"; sourceTree = "<group>"; };
+		4F88103F5704F474197AB6DB /* GestureDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureDetector.swift; sourceTree = "<group>"; };
+		51B52B31C2B67D89FB79131A /* KenneyNL-Racing-LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "KenneyNL-Racing-LICENSE.txt"; sourceTree = "<group>"; };
+		51F67BCA4730BFB223D2C5BD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5311414E5A9813C24DBCA393 /* pause.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pause.wav; sourceTree = "<group>"; };
+		56F43EFA8010133C874BB959 /* RobotExpressive.glb */ = {isa = PBXFileReference; path = RobotExpressive.glb; sourceTree = "<group>"; };
+		570240304A34D8F15E2AAAEE /* LICENSES.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSES.md; sourceTree = "<group>"; };
+		593EFDBDAE159EC3CF423F96 /* city_grass-trees-tall.glb */ = {isa = PBXFileReference; path = "city_grass-trees-tall.glb"; sourceTree = "<group>"; };
+		5C2CDD126EAA61C1CC653037 /* race_track-bump.glb */ = {isa = PBXFileReference; path = "race_track-bump.glb"; sourceTree = "<group>"; };
+		5FE73FF9DCA32CE125413B1B /* city_building-small-a.glb */ = {isa = PBXFileReference; path = "city_building-small-a.glb"; sourceTree = "<group>"; };
+		6124544B0CADD10C14160E89 /* WatchLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchLink.swift; sourceTree = "<group>"; };
+		630A4BCF8ED29DBB929BD7B3 /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud.png; sourceTree = "<group>"; };
+		6516FD99001D4B1724715910 /* colormap_race.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colormap_race.png; sourceTree = "<group>"; };
+		65D27B5BF177D61AC0C4BAA1 /* SessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
+		67F08D3F71B424169B10DD59 /* city_road-straight-lightposts.glb */ = {isa = PBXFileReference; path = "city_road-straight-lightposts.glb"; sourceTree = "<group>"; };
+		689C828978BE30629682169F /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		68C096E9E3D7330700063555 /* jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jump.wav; sourceTree = "<group>"; };
+		6C260BD4A2D0CCD0BBA82447 /* MotionMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionMath.swift; sourceTree = "<group>"; };
+		6CF92541BE65F72ADB9DF73D /* city_building-small-d.glb */ = {isa = PBXFileReference; path = "city_building-small-d.glb"; sourceTree = "<group>"; };
+		70FE7EADB8AEE3220BAB8779 /* KenneyNL-Platformer-LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "KenneyNL-Platformer-LICENSE.md"; sourceTree = "<group>"; };
+		725748BD4B9068AD2701EBF7 /* reward.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = reward.wav; sourceTree = "<group>"; };
+		72C583EA2786638942A3256D /* lane.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lane.wav; sourceTree = "<group>"; };
+		744B25BFB3DB91F3509FD2C8 /* hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hit.wav; sourceTree = "<group>"; };
+		753C2FA52461C3CF234B097F /* plat_platform-large.glb */ = {isa = PBXFileReference; path = "plat_platform-large.glb"; sourceTree = "<group>"; };
+		76005C5A51718AF370990F0D /* city_grass.glb */ = {isa = PBXFileReference; path = city_grass.glb; sourceTree = "<group>"; };
+		7AEE2DBC7C57E3588919AB58 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7BDDEB1464E2F7442DC7D5F7 /* ExerciseSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSession.swift; sourceTree = "<group>"; };
+		7C9ABD967FA646FC5588E105 /* tap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tap.wav; sourceTree = "<group>"; };
+		7EC8D29A3267B2D2E76A0ECF /* Game3DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game3DView.swift; sourceTree = "<group>"; };
+		835E23F0649B6E305D741C3D /* LegRepDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegRepDetector.swift; sourceTree = "<group>"; };
+		84A7AE66D3FB8A584A632E5B /* plat_grass-small.glb */ = {isa = PBXFileReference; path = "plat_grass-small.glb"; sourceTree = "<group>"; };
+		84B93FF3054CD36909846A73 /* ModelLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelLibrary.swift; sourceTree = "<group>"; };
+		8628A4DF91CF8B074A5A6FC9 /* RehabRunnerTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = RehabRunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		867ECEFB778892CABDE34E19 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		874EA0D7F50E70818F00B0C6 /* Sfx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sfx.swift; sourceTree = "<group>"; };
+		892BB5A9A72FC74A389F0E38 /* city_building-small-c.glb */ = {isa = PBXFileReference; path = "city_building-small-c.glb"; sourceTree = "<group>"; };
+		8E4F8BC792473912F210FCB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8F65D3A4B12440B96C187A0A /* ExerciseSessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSessionTests.swift; sourceTree = "<group>"; };
+		92B3FF79CCA45C8B396201CB /* dust.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dust.png; sourceTree = "<group>"; };
+		94AE610DB46F6926129751BB /* plat_coin.glb */ = {isa = PBXFileReference; path = plat_coin.glb; sourceTree = "<group>"; };
+		962754754AD7CD764244D7D3 /* GLTFLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLTFLoader.swift; sourceTree = "<group>"; };
+		99A5F6BB54961BB5BD372F91 /* race_vehicle-truck-green.glb */ = {isa = PBXFileReference; path = "race_vehicle-truck-green.glb"; sourceTree = "<group>"; };
+		9A45EC07D8FBD4F67554C8AF /* CalibrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalibrationView.swift; sourceTree = "<group>"; };
+		A6B86A73A31DE060CF1B89D8 /* GestureDetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureDetectorTests.swift; sourceTree = "<group>"; };
+		AAE93D73CA1E8369AF3075ED /* sky_city.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sky_city.png; sourceTree = "<group>"; };
+		AE407DB88713ED9262226F43 /* levelup.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = levelup.wav; sourceTree = "<group>"; };
+		AE986237CF006497DF334F9E /* Zone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zone.swift; sourceTree = "<group>"; };
+		B8A660C4AB2A193E4B41275E /* RehabLogicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehabLogicTests.swift; sourceTree = "<group>"; };
+		B98052129C7ECD6994673831 /* RunnerEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunnerEngine.swift; sourceTree = "<group>"; };
+		BB7476F51A55D526700C1176 /* sky_sunset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sky_sunset.png; sourceTree = "<group>"; };
+		BCA5223628741343D2676870 /* city_building-garage.glb */ = {isa = PBXFileReference; path = "city_building-garage.glb"; sourceTree = "<group>"; };
+		C539EC937FA542B355FF55A6 /* plat_brick.glb */ = {isa = PBXFileReference; path = plat_brick.glb; sourceTree = "<group>"; };
+		C6EA3D7D2A72BB5D88408EC3 /* sky_night.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sky_night.png; sourceTree = "<group>"; };
+		C76C2A3D98A333178D45AB37 /* RehabRunnerWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RehabRunnerWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB38B41466F2246D9F4A748A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		CDBAFA28A4D15F7ACD98A1CE /* colormap_city.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colormap_city.png; sourceTree = "<group>"; };
+		CE705901B15C415EC3D85335 /* Rehab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rehab.swift; sourceTree = "<group>"; };
+		CFFF2E2E07894FE069D4FF7E /* shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadow.png; sourceTree = "<group>"; };
+		D149DDEB2F52C130B52D75F2 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		DAE0EB0C003C49D31DF3E299 /* city_road-straight.glb */ = {isa = PBXFileReference; path = "city_road-straight.glb"; sourceTree = "<group>"; };
+		DC7F92CC8313E857A424C783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DCA009A19C9F1D20EA952856 /* OrientationGestureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationGestureTests.swift; sourceTree = "<group>"; };
+		DFE80B8C0D6D4464A5CF41C5 /* plat_dust.glb */ = {isa = PBXFileReference; path = plat_dust.glb; sourceTree = "<group>"; };
+		E477AF2D408C749B5162D865 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		E5EF57A26EA0D09D5C379473 /* race_vehicle-motorcycle.glb */ = {isa = PBXFileReference; path = "race_vehicle-motorcycle.glb"; sourceTree = "<group>"; };
+		E6D2035FDEFFD2741F4C6AF5 /* MotionSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionSettings.swift; sourceTree = "<group>"; };
+		E86ACB6824E58265B89C8B93 /* ReminderStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderStore.swift; sourceTree = "<group>"; };
+		E988BDE3422A6EAC37B225AE /* ExerciseSessionRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSessionRecord.swift; sourceTree = "<group>"; };
+		EABF0C910AD7EDAA81F36B58 /* WatchEventBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchEventBuilder.swift; sourceTree = "<group>"; };
+		F31CACA3FA229789A5E1AD7F /* city_road-corner.glb */ = {isa = PBXFileReference; path = "city_road-corner.glb"; sourceTree = "<group>"; };
+		F3E174C8048967584455C96D /* MotionSettingsEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionSettingsEditor.swift; sourceTree = "<group>"; };
+		F3EA2B1D145223E4E4F70479 /* RehabRunnerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehabRunnerApp.swift; sourceTree = "<group>"; };
+		F97C663EDB82607E6BF6183D /* city_grass-trees.glb */ = {isa = PBXFileReference; path = "city_grass-trees.glb"; sourceTree = "<group>"; };
+		F9B0244EB3349259CB1E6CA0 /* race_vehicle-truck-yellow.glb */ = {isa = PBXFileReference; path = "race_vehicle-truck-yellow.glb"; sourceTree = "<group>"; };
+		FA4169B89F431B432C6B0569 /* plat_character.glb */ = {isa = PBXFileReference; path = plat_character.glb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		09C855207D0854780C29A610 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F8227DFD499D638BCDBBEA0 /* RehabRunner.app */,
+				8628A4DF91CF8B074A5A6FC9 /* RehabRunnerTests.xctest */,
+				C76C2A3D98A333178D45AB37 /* RehabRunnerWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EC76AB8BCFE94E775EDED73 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4F88103F5704F474197AB6DB /* GestureDetector.swift */,
+				835E23F0649B6E305D741C3D /* LegRepDetector.swift */,
+				689C828978BE30629682169F /* Models.swift */,
+				6C260BD4A2D0CCD0BBA82447 /* MotionMath.swift */,
+				E6D2035FDEFFD2741F4C6AF5 /* MotionSettings.swift */,
+				F3E174C8048967584455C96D /* MotionSettingsEditor.swift */,
+				EABF0C910AD7EDAA81F36B58 /* WatchEventBuilder.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		0F7A2AB3BB1A6F880C305065 = {
+			isa = PBXGroup;
+			children = (
+				371F94D251E6640B22235445 /* iOS */,
+				0EC76AB8BCFE94E775EDED73 /* Shared */,
+				3CB3E6BFEB609D0011B87E33 /* Tests */,
+				C750352E53255AA4B7D4B4D0 /* Watch */,
+				09C855207D0854780C29A610 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E7033BCF469D0EA5671689A /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				7BDDEB1464E2F7442DC7D5F7 /* ExerciseSession.swift */,
+				E86ACB6824E58265B89C8B93 /* ReminderStore.swift */,
+				65D27B5BF177D61AC0C4BAA1 /* SessionController.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		2F6E5D9040BA81A71F248276 /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				630A4BCF8ED29DBB929BD7B3 /* cloud.png */,
+				92B3FF79CCA45C8B396201CB /* dust.png */,
+				48B8B176196CCD96C3601B2C /* obs_gantry.png */,
+				CFFF2E2E07894FE069D4FF7E /* shadow.png */,
+				AAE93D73CA1E8369AF3075ED /* sky_city.png */,
+				C6EA3D7D2A72BB5D88408EC3 /* sky_night.png */,
+				3ABFEA36B6334F1E1741D954 /* sky_park.png */,
+				BB7476F51A55D526700C1176 /* sky_sunset.png */,
+				3E342AE19D360249935D4C4C /* spark.png */,
+			);
+			path = Sprites;
+			sourceTree = "<group>";
+		};
+		3376E71B5388A1F6B32A2E70 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				874EA0D7F50E70818F00B0C6 /* Sfx.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		371F94D251E6640B22235445 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8E4F8BC792473912F210FCB9 /* Info.plist */,
+				F3EA2B1D145223E4E4F70479 /* RehabRunnerApp.swift */,
+				3376E71B5388A1F6B32A2E70 /* Audio */,
+				82359A05E83B61471C9032D5 /* Connectivity */,
+				FF1811F0B8649D47A2ADFF74 /* Data */,
+				2E7033BCF469D0EA5671689A /* Engine */,
+				82A897889B9EF642821E0E48 /* Game */,
+				8968B0F99145629FB6194D96 /* Game3D */,
+				3E161CA5458633C7BFE66127 /* Resources */,
+				B4CF2499B708991ACF3653B7 /* Views */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		3CB3E6BFEB609D0011B87E33 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8F65D3A4B12440B96C187A0A /* ExerciseSessionTests.swift */,
+				A6B86A73A31DE060CF1B89D8 /* GestureDetectorTests.swift */,
+				DCA009A19C9F1D20EA952856 /* OrientationGestureTests.swift */,
+				B8A660C4AB2A193E4B41275E /* RehabLogicTests.swift */,
+				344DB767F6A891C47676AB99 /* TestSupport.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		3E161CA5458633C7BFE66127 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				41ABAA55D47BF6A108936CB4 /* Assets.xcassets */,
+				570240304A34D8F15E2AAAEE /* LICENSES.md */,
+				9531FBEF0D33496AD86A427D /* Models */,
+				809E9E0845BF7AF9079A760A /* Sounds */,
+				2F6E5D9040BA81A71F248276 /* Sprites */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		809E9E0845BF7AF9079A760A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0DD5A50926B03BEBFD4DC11E /* coin.wav */,
+				744B25BFB3DB91F3509FD2C8 /* hit.wav */,
+				68C096E9E3D7330700063555 /* jump.wav */,
+				72C583EA2786638942A3256D /* lane.wav */,
+				AE407DB88713ED9262226F43 /* levelup.wav */,
+				5311414E5A9813C24DBCA393 /* pause.wav */,
+				3D273F16DA1D7B55E684131B /* rep.wav */,
+				725748BD4B9068AD2701EBF7 /* reward.wav */,
+				287338CB2BFC2EDF8C54EEA2 /* slide.wav */,
+				7C9ABD967FA646FC5588E105 /* tap.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		82359A05E83B61471C9032D5 /* Connectivity */ = {
+			isa = PBXGroup;
+			children = (
+				39CBBCC29BCDF41557325695 /* PhoneConnectivity.swift */,
+			);
+			path = Connectivity;
+			sourceTree = "<group>";
+		};
+		82A897889B9EF642821E0E48 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				B98052129C7ECD6994673831 /* RunnerEngine.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		8968B0F99145629FB6194D96 /* Game3D */ = {
+			isa = PBXGroup;
+			children = (
+				7EC8D29A3267B2D2E76A0ECF /* Game3DView.swift */,
+				962754754AD7CD764244D7D3 /* GLTFLoader.swift */,
+				84B93FF3054CD36909846A73 /* ModelLibrary.swift */,
+				343904E91FB6BF0D3573C5D5 /* RunnerScene3D.swift */,
+				AE986237CF006497DF334F9E /* Zone.swift */,
+			);
+			path = Game3D;
+			sourceTree = "<group>";
+		};
+		9531FBEF0D33496AD86A427D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BCA5223628741343D2676870 /* city_building-garage.glb */,
+				5FE73FF9DCA32CE125413B1B /* city_building-small-a.glb */,
+				343FFA743FE498617A59F5D1 /* city_building-small-b.glb */,
+				892BB5A9A72FC74A389F0E38 /* city_building-small-c.glb */,
+				6CF92541BE65F72ADB9DF73D /* city_building-small-d.glb */,
+				593EFDBDAE159EC3CF423F96 /* city_grass-trees-tall.glb */,
+				F97C663EDB82607E6BF6183D /* city_grass-trees.glb */,
+				76005C5A51718AF370990F0D /* city_grass.glb */,
+				36A4CB031DF73C560FDE68F0 /* city_pavement.glb */,
+				F31CACA3FA229789A5E1AD7F /* city_road-corner.glb */,
+				67F08D3F71B424169B10DD59 /* city_road-straight-lightposts.glb */,
+				DAE0EB0C003C49D31DF3E299 /* city_road-straight.glb */,
+				CDBAFA28A4D15F7ACD98A1CE /* colormap_city.png */,
+				6516FD99001D4B1724715910 /* colormap_race.png */,
+				C539EC937FA542B355FF55A6 /* plat_brick.glb */,
+				FA4169B89F431B432C6B0569 /* plat_character.glb */,
+				4EB5045E379F45AC263F709F /* plat_cloud.glb */,
+				94AE610DB46F6926129751BB /* plat_coin.glb */,
+				DFE80B8C0D6D4464A5CF41C5 /* plat_dust.glb */,
+				0140546873A7BD151AB0AC98 /* plat_flag.glb */,
+				84A7AE66D3FB8A584A632E5B /* plat_grass-small.glb */,
+				753C2FA52461C3CF234B097F /* plat_platform-large.glb */,
+				37FCA8356D585097962A1C83 /* race_decoration-forest.glb */,
+				5C2CDD126EAA61C1CC653037 /* race_track-bump.glb */,
+				E5EF57A26EA0D09D5C379473 /* race_vehicle-motorcycle.glb */,
+				99A5F6BB54961BB5BD372F91 /* race_vehicle-truck-green.glb */,
+				0C046B834D4E8856FA1F051F /* race_vehicle-truck-purple.glb */,
+				3469D26174FE3EC4DAC61398 /* race_vehicle-truck-red.glb */,
+				F9B0244EB3349259CB1E6CA0 /* race_vehicle-truck-yellow.glb */,
+				56F43EFA8010133C874BB959 /* RobotExpressive.glb */,
+				EC61DB6D718A8C1080993143 /* licenses */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B4CF2499B708991ACF3653B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A45EC07D8FBD4F67554C8AF /* CalibrationView.swift */,
+				49BFAF38C83A69B0A7CF8CA0 /* DiagnosticsView.swift */,
+				D149DDEB2F52C130B52D75F2 /* GameView.swift */,
+				51F67BCA4730BFB223D2C5BD /* HomeView.swift */,
+				CB38B41466F2246D9F4A748A /* ProfileView.swift */,
+				0E924C023271F8C286D9403A /* RemindersView.swift */,
+				7AEE2DBC7C57E3588919AB58 /* SettingsView.swift */,
+				208F0D91EF1A3C80B0EA56CE /* StatsView.swift */,
+				E477AF2D408C749B5162D865 /* SummaryView.swift */,
+				867ECEFB778892CABDE34E19 /* Theme.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C750352E53255AA4B7D4B4D0 /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				DC7F92CC8313E857A424C783 /* Info.plist */,
+				217EBF96F2F0E57E9C2AE0EC /* RehabRunnerWatchApp.swift */,
+				6124544B0CADD10C14160E89 /* WatchLink.swift */,
+				1A39AFC00023D6E3EA491F8B /* WatchModel.swift */,
+			);
+			path = Watch;
+			sourceTree = "<group>";
+		};
+		EC61DB6D718A8C1080993143 /* licenses */ = {
+			isa = PBXGroup;
+			children = (
+				4F654B34FDD9BC2A26E825CC /* KenneyNL-City-Builder-LICENSE.md */,
+				70FE7EADB8AEE3220BAB8779 /* KenneyNL-Platformer-LICENSE.md */,
+				51B52B31C2B67D89FB79131A /* KenneyNL-Racing-LICENSE.txt */,
+			);
+			path = licenses;
+			sourceTree = "<group>";
+		};
+		FF1811F0B8649D47A2ADFF74 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E988BDE3422A6EAC37B225AE /* ExerciseSessionRecord.swift */,
+				CE705901B15C415EC3D85335 /* Rehab.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C7C70A915AA406AC974640E /* RehabRunnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA49FA597F963065F56D7842 /* Build configuration list for PBXNativeTarget "RehabRunnerTests" */;
+			buildPhases = (
+				133BC3F04FFF5FD3465648AF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7A8AB87B7FA63290A4AB764 /* PBXTargetDependency */,
+			);
+			name = RehabRunnerTests;
+			packageProductDependencies = (
+			);
+			productName = RehabRunnerTests;
+			productReference = 8628A4DF91CF8B074A5A6FC9 /* RehabRunnerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7EAD5A96D22B4B4A34698E73 /* RehabRunner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AFC83A37ECBA10648DF840D /* Build configuration list for PBXNativeTarget "RehabRunner" */;
+			buildPhases = (
+				B2CD38008B41BECE16E129C4 /* Sources */,
+				4761B3843B6CCDC4F60C1F88 /* Resources */,
+				0EAC801C060211E3F293E47F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FD75985C79EAE2EF1FC7FCF /* PBXTargetDependency */,
+			);
+			name = RehabRunner;
+			packageProductDependencies = (
+			);
+			productName = RehabRunner;
+			productReference = 2F8227DFD499D638BCDBBEA0 /* RehabRunner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3E859AEBD9F3AFF989CC054 /* RehabRunnerWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B639839142FC1D6A2C50213 /* Build configuration list for PBXNativeTarget "RehabRunnerWatch" */;
+			buildPhases = (
+				591C9E8E70F2F65E02615DE2 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RehabRunnerWatch;
+			packageProductDependencies = (
+			);
+			productName = RehabRunnerWatch;
+			productReference = C76C2A3D98A333178D45AB37 /* RehabRunnerWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4757969A9D97AFC3CD68C0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7C7C70A915AA406AC974640E = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					7EAD5A96D22B4B4A34698E73 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					C3E859AEBD9F3AFF989CC054 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BB511DA094338CC1A5514558 /* Build configuration list for PBXProject "RehabRunner" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 0F7A2AB3BB1A6F880C305065;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 09C855207D0854780C29A610 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EAD5A96D22B4B4A34698E73 /* RehabRunner */,
+				C3E859AEBD9F3AFF989CC054 /* RehabRunnerWatch */,
+				7C7C70A915AA406AC974640E /* RehabRunnerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4761B3843B6CCDC4F60C1F88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5970D21671F8B557EF1D9174 /* Assets.xcassets in Resources */,
+				47767B7F50ED01E7278CAECB /* KenneyNL-City-Builder-LICENSE.md in Resources */,
+				F117A2AC9AC8B17548937643 /* KenneyNL-Platformer-LICENSE.md in Resources */,
+				4743CAA28BB900C321631AFC /* KenneyNL-Racing-LICENSE.txt in Resources */,
+				9F6100C5CDA0A7262B237AFB /* LICENSES.md in Resources */,
+				98685E5E298D7A22E36B513C /* RobotExpressive.glb in Resources */,
+				F4285A11B7583D49DD33EA61 /* city_building-garage.glb in Resources */,
+				A094A817FFE9174517607582 /* city_building-small-a.glb in Resources */,
+				22C451037016E59A5C1EC4DF /* city_building-small-b.glb in Resources */,
+				B393D48F20B3730EEEC01159 /* city_building-small-c.glb in Resources */,
+				4345F025D6BA3519D646046D /* city_building-small-d.glb in Resources */,
+				CA4610371287F19CF6D3BBE6 /* city_grass-trees-tall.glb in Resources */,
+				13692A7DD7125E20C8447B94 /* city_grass-trees.glb in Resources */,
+				FCE5E22EC5C046AD3D83AF8C /* city_grass.glb in Resources */,
+				85D86B783BB5932E70B286F7 /* city_pavement.glb in Resources */,
+				F8F7FDC9DAC8CFAAB7479B06 /* city_road-corner.glb in Resources */,
+				C30D41796FD34E104F06E271 /* city_road-straight-lightposts.glb in Resources */,
+				E7FB37C39D238B2B61CA6311 /* city_road-straight.glb in Resources */,
+				1B63BD3C3F09546ABD8D479F /* cloud.png in Resources */,
+				AA602462A360750CDBDE6D32 /* coin.wav in Resources */,
+				0E24F0835EAE2D9E0E678ACB /* colormap_city.png in Resources */,
+				1BF92DEFD178D8126243B71A /* colormap_race.png in Resources */,
+				44305ED4918AD2E1876A6317 /* dust.png in Resources */,
+				8F60CDF38120E82711126941 /* hit.wav in Resources */,
+				03443A7F956D615D4FAFBF61 /* jump.wav in Resources */,
+				B1E75373EBB54453C1453B70 /* lane.wav in Resources */,
+				5FE37734C8FD8DC739CBAAAC /* levelup.wav in Resources */,
+				BBA6EA30890E20936B6D319D /* obs_gantry.png in Resources */,
+				F8FAA0EE454B4E7401C571A6 /* pause.wav in Resources */,
+				94E7E70A198D0536A8174225 /* plat_brick.glb in Resources */,
+				8D76C42F3961EDEDA4877E66 /* plat_character.glb in Resources */,
+				1B3C6C3655475EBF58B081C4 /* plat_cloud.glb in Resources */,
+				157A110914F32DEE0B041F30 /* plat_coin.glb in Resources */,
+				C2E55EE7C8B1CB108373A90E /* plat_dust.glb in Resources */,
+				3AFC29EB6762970BD2753240 /* plat_flag.glb in Resources */,
+				BF02B5D4731F8D9A98B74608 /* plat_grass-small.glb in Resources */,
+				D61E34BBB3903BF877AD77E7 /* plat_platform-large.glb in Resources */,
+				435007A8F307972915117969 /* race_decoration-forest.glb in Resources */,
+				564FE044ED8CFD96F2C1EA32 /* race_track-bump.glb in Resources */,
+				7B7858CFC0F5B7B73E745DE1 /* race_vehicle-motorcycle.glb in Resources */,
+				CC4DBCC2C6F8D701CF771B4D /* race_vehicle-truck-green.glb in Resources */,
+				86CA80AB6F756BF10BCDD1F1 /* race_vehicle-truck-purple.glb in Resources */,
+				399B285DA8B0AA99EE9E776A /* race_vehicle-truck-red.glb in Resources */,
+				A6FB735DEBF6DE22BFD5D655 /* race_vehicle-truck-yellow.glb in Resources */,
+				3DA9316A0F85585015396C13 /* rep.wav in Resources */,
+				7C2F314258C096CEA354C3B3 /* reward.wav in Resources */,
+				6CAA65D1BF7957F44BD83897 /* shadow.png in Resources */,
+				117A5C8A75A4B9AB99B124FF /* sky_city.png in Resources */,
+				7C8477A62434F5EB3B5FDA11 /* sky_night.png in Resources */,
+				EE74C5B641CAE80D51997477 /* sky_park.png in Resources */,
+				5799DB8EB57B1553E5CB1DF4 /* sky_sunset.png in Resources */,
+				5BAD1D3172AC5CBADB3D4F35 /* slide.wav in Resources */,
+				59167E98E6348E10830D184E /* spark.png in Resources */,
+				527EDBDB1D04AD90DFF8CF5F /* tap.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		133BC3F04FFF5FD3465648AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A89168F8B38BEDB245971348 /* ExerciseSessionTests.swift in Sources */,
+				9680C293CB8177AA387611DE /* GestureDetectorTests.swift in Sources */,
+				19D41D84E70312571937D283 /* OrientationGestureTests.swift in Sources */,
+				776E4DA92836E21C59A21B23 /* RehabLogicTests.swift in Sources */,
+				2C619D9E7D6CC1949BBEEBAA /* TestSupport.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		591C9E8E70F2F65E02615DE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AAEF9831A3A0E7B227A01A5 /* GestureDetector.swift in Sources */,
+				D2A51B7AC855ADE8ED25874B /* LegRepDetector.swift in Sources */,
+				659063609C7C0B0D1626B612 /* Models.swift in Sources */,
+				FD7AD6A391ABCE4BAB79A2F3 /* MotionMath.swift in Sources */,
+				F4415CE6B8626FD44DA99C37 /* MotionSettings.swift in Sources */,
+				9BB9500E5C27EA95B8B59E0C /* MotionSettingsEditor.swift in Sources */,
+				12FE5FA93C332AA65E8ECB48 /* RehabRunnerWatchApp.swift in Sources */,
+				1B27E77F2D69FC26C0DEDBFD /* WatchEventBuilder.swift in Sources */,
+				0D818F5B096333DD425DBE1F /* WatchLink.swift in Sources */,
+				A2A3CAC207AB110992B00F59 /* WatchModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2CD38008B41BECE16E129C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				793314810A5E853E4CBAA99D /* CalibrationView.swift in Sources */,
+				AFE6A66AD6C7EB3C6A61A186 /* DiagnosticsView.swift in Sources */,
+				4D3C546DC323F1197867E6DE /* ExerciseSession.swift in Sources */,
+				B9B7E534E8275E513A0848D1 /* ExerciseSessionRecord.swift in Sources */,
+				68BC4E51C721CC91EEA110FC /* GLTFLoader.swift in Sources */,
+				1E7282DE5AC0DABACBBA3D0F /* Game3DView.swift in Sources */,
+				9A71F020F783638CAAB205CF /* GameView.swift in Sources */,
+				E9701B2C47F6FC65CBADF4F2 /* GestureDetector.swift in Sources */,
+				883A6AF7704592E56C68302B /* HomeView.swift in Sources */,
+				10DDA34D939387F60E644B14 /* LegRepDetector.swift in Sources */,
+				2FA75E0BEAB12199BF0E6C3C /* ModelLibrary.swift in Sources */,
+				D2F080C8B524C677364F29E7 /* Models.swift in Sources */,
+				DD3B5B2BCADC467141A1D307 /* MotionMath.swift in Sources */,
+				C9718B3BDF07716221D239CA /* MotionSettings.swift in Sources */,
+				C2AE362FA6276F1FE5F5BFB9 /* MotionSettingsEditor.swift in Sources */,
+				195E80BC2A324B63B02CF729 /* PhoneConnectivity.swift in Sources */,
+				DC93CF06B24031143893D4B6 /* ProfileView.swift in Sources */,
+				59366BA093AFA0B42D7C88EC /* Rehab.swift in Sources */,
+				E32C94ACC9484B9DF900AA9B /* RehabRunnerApp.swift in Sources */,
+				FCE2123D52BFC5DAAC4B6C96 /* ReminderStore.swift in Sources */,
+				A7F5CED6163C0CE8FE46BFD4 /* RemindersView.swift in Sources */,
+				76C4A686DC7CEA28E50C3A32 /* RunnerEngine.swift in Sources */,
+				AB97CC5295218F0581A9F742 /* RunnerScene3D.swift in Sources */,
+				32366B5FAAFB382ECB41CBEF /* SessionController.swift in Sources */,
+				A2CA3001EAD8134D5592B336 /* SettingsView.swift in Sources */,
+				B43A603302735049B2770D96 /* Sfx.swift in Sources */,
+				A4CC112F407F17C05E398D75 /* StatsView.swift in Sources */,
+				94134F22C6CFD0D8A296EE45 /* SummaryView.swift in Sources */,
+				09D5F1E4266165CED6DA23C1 /* Theme.swift in Sources */,
+				431A3300875DCAE0FF9FF43F /* WatchEventBuilder.swift in Sources */,
+				F52B3C1E7CFA9574F12E39AF /* Zone.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FD75985C79EAE2EF1FC7FCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3E859AEBD9F3AFF989CC054 /* RehabRunnerWatch */;
+			targetProxy = 7B6F4CDEE3D1B96E396B3ABC /* PBXContainerItemProxy */;
+		};
+		D7A8AB87B7FA63290A4AB764 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EAD5A96D22B4B4A34698E73 /* RehabRunner */;
+			targetProxy = 9EAA253F53146926651D1BF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		027C2FD8A47F1DF1C7DE862A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RehabRunner.watchkitapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		0B282E84007C52214A8EC8D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		11D92FBFEEE4AE64227201F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RehabRunner;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		15ED2D79C6FD557AA11C5894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RehabRunnerTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RehabRunner.app/RehabRunner";
+			};
+			name = Release;
+		};
+		5958F894092E415D6BA29EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RehabRunner.watchkitapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		766AABC89ADF2C7FDD95C034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RehabRunnerTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RehabRunner.app/RehabRunner";
+			};
+			name = Debug;
+		};
+		7AF14F8FEA982EE4E8158BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RehabRunner;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CB3CACDCC9B58BE6CCBB7538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B639839142FC1D6A2C50213 /* Build configuration list for PBXNativeTarget "RehabRunnerWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				027C2FD8A47F1DF1C7DE862A /* Debug */,
+				5958F894092E415D6BA29EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6AFC83A37ECBA10648DF840D /* Build configuration list for PBXNativeTarget "RehabRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF14F8FEA982EE4E8158BC6 /* Debug */,
+				11D92FBFEEE4AE64227201F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BB511DA094338CC1A5514558 /* Build configuration list for PBXProject "RehabRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3CACDCC9B58BE6CCBB7538 /* Debug */,
+				0B282E84007C52214A8EC8D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EA49FA597F963065F56D7842 /* Build configuration list for PBXNativeTarget "RehabRunnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				766AABC89ADF2C7FDD95C034 /* Debug */,
+				15ED2D79C6FD557AA11C5894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4757969A9D97AFC3CD68C0C /* Project object */;
+}
